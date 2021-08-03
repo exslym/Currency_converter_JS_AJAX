@@ -9,8 +9,8 @@ inputRub.addEventListener('input', () => {
 	request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
 	request.send();
 
-	// status (404)
-	// statusText (Not Found)
+	// status (404, 200)
+	// statusText (Not Found, OK)
 	// responseText / response (server response text)
 	// readyState (current state of the request):
 	// 0 - UNSENT
